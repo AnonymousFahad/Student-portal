@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-section{
+    display: flex;
+}
+.left-sec{
+    background-color: #0067A6;
+    width: 16%;
+}
+.l-h{
+    align-items: center;
+    display: flex;
+    background-color: #005BA4;
+    padding: 10px;
+}
+.l-logo{
+    padding: 5px;
+}
+.l-h p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    size: 25px;
+    padding-left: 20px;
+}
+.dashboard{
+    display: flex;
+    align-items: center;
+    padding: 7px 0px;
+}
+.dashboard:hover{
+    background-color: #3EACFF;
+    color: white;
+}
+.home-icon{
+    padding: 5px 15px;
+}
+.dashboard p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 7px;
+}
+.waiver-info{
+    /* padding: 10px; */
+    padding-left: 16px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.waiver-info p{
+    padding: 12px 0px;
+}
+.menu{
+    padding: 19px 19px  ;
+} 
+.right-head{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+.head-right{
+    display: flex;
+    padding-left: 983px;
+}
+.head-right img{
+    margin: 0px 15px;
+}
+
+
+/* .menu{
+    position: absolute;
+    animation-name: first-ani;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+} */
+
+
+
+.right-body{
+    background-color: #F1F1F1;
+    padding: 20px 20px;
+   
+}
+.right-body p{
+   color: rgba(0, 0, 0, 0.438);
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right-body p img{
+    padding-left: 1000px;
+    cursor: pointer;
+}
+.welcome{
+    margin-top: 20px;
+    padding: 25px 20px;
+    background-color: white;
+}
+.welcome p{
+    color: rgba(0, 0, 0, 0.774);
+}
+.nav-s{
+    display: flex;
+    justify-content: space-around;
+}
+.sem{
+    width: 190px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 40px 30px;
+    background-color: white;
+    border-radius: 7px;
+}
+.sem p{
+    color: #557AC7;
+    font-size: 22px;
+}
+.sem-nav hr{
+    margin-top: 60px;
+    border-color: rgba(0, 0, 0, 0.11);
+}
+.sem-nav .text-bottom{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.sem-nav b{
+    color: #408FC7;
+}
+
